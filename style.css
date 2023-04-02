@@ -1,0 +1,972 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    border: solid;
+    display: flex;
+    background-color:rgb(13, 13, 26);
+    border-bottom: 1px solid gray;
+}
+.head{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+   
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+    background-color: rgb(58, 111, 228);
+}
+.nav__ul{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-left: 1px solid gray;
+}
+.nav__li{
+    display: inline-block;
+    padding: 14px;
+    
+   font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgba(211, 211, 211, 0.616);
+}
+.header{
+    margin-top: 22px;
+    color: white;
+}
+.nav__input{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+margin-top: 20px;
+background-color: rgb(13, 13, 26);
+}
+i{
+    margin-top: 27px;
+}
+.nav__buton{
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.bell__icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 50%;
+    color: lightgrey;
+    text-align: center;
+    display: flex;
+}
+.sun__icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+    color: lightgrey;
+    text-align: center;
+}
+.six{
+    width: 20px;
+    height: 20px;
+    
+    position: absolute;
+    left: 30px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(55, 102, 202);
+    color: white;
+}
+.bi-search{
+    color: rgba(211, 211, 211, 0.651);
+}
+.bi-bell{
+    color: rgba(211, 211, 211, 0.63);
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.bi-brightness-low{
+margin-top: 20px;
+font-size: 30px;
+color: rgba(211, 211, 211, 0.589);
+}
+.nav__buton{
+    color: white;
+    background-color: rgb(14, 14, 49);
+    border-radius: 10px;
+}
+.nav__buton:hover{
+    background-color: rgb(55, 102, 202) ;
+}
+input[placeholder="Wallet Connect"]{
+    color: lightgray;
+}
+.section1{
+    width: 100%;
+    height: 600px;
+    
+    display: flex;
+    justify-content: center;
+    background-color: rgb(13, 13, 26);
+}
+.section1__text{
+    width: 500px;
+    height: 500px;
+    
+    
+}
+.section1__img{
+    width: 600px;
+    height: 600px;
+    
+}
+.section1__head{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    color: white;
+}
+.section1__desc{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    color: rgba(211, 211, 211, 0.664);
+}
+.section1__buton1{
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(85, 173, 224);
+    color: white;
+    margin-top: 50px;
+}
+.section1__buton2{
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color:rgba(13, 13, 26, 0.719) ;
+    color: white;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.section1__img{
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/slider/slider-1.png");
+    background-position: center;
+    background-size: cover;
+  background-origin: content-box;
+}
+.section1__buton1:hover{
+  background-color: rgb(14, 14, 49);
+}
+.section1__buton2:hover{
+    background-color: rgb(85, 173, 224);
+}
+.section2{
+    width: 100%;
+    height: 700px;
+    
+    background-color: rgb(13, 13, 26);
+   
+
+}
+.section2__card1{
+    width: 250px;
+    height: 400px;
+    
+ border-radius: 10px;
+ 
+ background-color: rgba(10, 10, 10, 0.61);
+}
+.section2__card2{
+    width: 250px;
+    height: 400px;
+    
+    margin-left: 30px;
+    border-radius: 10px;
+    
+   background-color: rgba(10, 10, 10, 0.61);
+}
+.section2__card3{
+    width: 250px;
+    height: 400px;
+    
+    margin-left: 30px;
+    border-radius: 10px;
+    
+    background-color: rgba(10, 10, 10, 0.61);
+}
+.section2__card4{
+    width: 250px;
+    height: 400px;
+    
+    margin-left: 30px;
+    border-radius: 10px;
+   
+    background-color: rgba(10, 10, 10, 0.61);
+}
+.section2__buton1{
+    width: 50px;
+    height: 50px;
+   margin-left: 1000px;
+   background-color:rgba(10, 10, 10, 0.493) ;
+}
+.section2__buton2{
+    width: 50px;
+    height: 50px;
+    background-color:rgba(10, 10, 10, 0.507) ;
+    
+}
+.section2__cards{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 70px;
+    
+}
+.section2__head{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+margin-left: 80px;
+color: white;
+}
+.card1__img{
+    width: 240px;
+    height: 200px;
+   
+    margin-left: 5px;
+    border-radius: 7px;
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/portfolio/portfolio-07.jpg");
+}
+.card2__img{
+    width: 240px;
+    height: 200px;
+   
+    margin-left: 5px;
+    border-radius: 7px;
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/portfolio/portfolio-10.jpg");
+}
+.card3__img{
+    width: 240px;
+    height: 200px;
+    
+    margin-left: 5px;
+    border-radius: 7px;
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/portfolio/portfolio-03.jpg");
+}
+.card4__img{
+    width: 240px;
+    height: 200px;
+   
+    margin-left: 5px;
+    border-radius: 7px;
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/portfolio/portfolio-04.jpg");
+}
+.card1__text{
+    text-decoration: none;
+    color: rgb(37, 37, 172);
+    font-size: 20px;
+    margin-top: 100px;
+    color: white;
+}
+.card1__desc{
+    font-size: 20px;
+    color: rgba(211, 211, 211, 0.521);
+}
+.card__low{
+    margin-top: 70px;
+}
+.img1{
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+display: inline-block;
+background-image: url("https://rainbowit.net/html/nuron/assets/images/client/client-2.png");
+background-position: center;
+background-size: cover;
+border-radius: 50%;
+background-repeat: no-repeat;
+}
+.img2{
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/client/client-3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img3{
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    display: inline-block;
+    
+    border-radius: 50%;
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/client/client-5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bi-arrow-left-short{
+    font-size: 30px;
+   color:rgb(37, 37, 172) ;
+}
+.bi-arrow-right-short{
+    font-size: 30px;
+    color:rgb(37, 37, 172) ;
+}
+.section2__buton1:hover{
+background-color: rgb(42, 83, 197);
+
+}
+.bi-arrow-left-short:hover{
+color: white;
+}
+.section2__buton2:hover{
+    background-color: rgb(42, 83, 197);
+    
+    }
+    .bi-arrow-right-short:hover{
+    color: white;
+    }
+
+
+
+    .section3{
+        width: 100%;
+        height: 800px;
+        
+    }
+    .section3__card1{
+        width: 300px;
+        height: 300px;
+        
+        position: relative;
+        background-color:rgba(10, 10, 10, 0.37) ;
+        border-radius: 10px;
+    }
+    .section3__card2{
+        width: 300px;
+        height: 300px;
+        
+        margin-left: 40px;
+        position: relative;
+        background-color:rgba(10, 10, 10, 0.37) ;
+        border-radius: 10px;
+    }
+    .section3__card3{
+        width: 300px;
+        height: 300px;
+        
+        margin-left: 40px;
+        position: relative;
+        background-color:rgba(10, 10, 10, 0.37) ;
+        border-radius: 10px;
+    }
+    .section3__cards{
+        display: flex;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .section3__head{
+        margin-left: 100px;
+        font-size: 30px;
+        color: white;
+    }
+    .section3__card4{
+        width: 300px;
+        height: 300px;
+       
+        margin-left: 100px;
+        margin-top: 40px;
+        position: relative;
+        background-color:rgba(10, 10, 10, 0.37) ;
+        border-radius: 10px;
+    }
+    .section3__card1__img{
+        width: 100px;
+        height: 80px;
+        
+        position: absolute;
+        left: 200px;
+        top: -10px;
+        background-image: url("https://rainbowit.net/html/nuron/assets/images/icons/shape-7.png");
+        background-position: center;
+        background-size: cover;
+    }
+    .section3__card2__img{
+        width: 100px;
+        height: 80px;
+        
+        position: absolute;
+        left: 200px;
+        top: -10px;
+        background-image: url("https://rainbowit.net/html/nuron/assets/images/icons/shape-1.png");
+        background-position: center;
+        background-size: cover;
+    }
+    .section3__card3__img{
+        width: 100px;
+        height: 80px;
+        
+        position: absolute;
+        left: 200px;
+        top: -10px;
+        background-image: url("https://rainbowit.net/html/nuron/assets/images/icons/shape-5.png");
+        background-position: center;
+        background-size: cover;
+    }
+    .section3__card4__img{
+        width: 100px;
+        height: 80px;
+        
+        position: absolute;
+        left: 200px;
+        top: -10px;
+        background-image: url("https://rainbowit.net/html/nuron/assets/images/icons/shape-6.png");
+        background-position: center;
+        background-size: cover;
+    }
+    .section3__card1__desc{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(211, 211, 211, 0.63);
+    }
+    .section3__card1__head{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 40px;
+        color: white;
+    }
+    .section3__card1__desc2{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+        color: rgba(211, 211, 211, 0.63);
+    }
+  .section3{
+    background-color: rgb(13, 13, 26);
+  }
+  .section4{
+    width: 100%;
+    height: 1200px;
+    
+    background-color:rgb(13, 13, 26) ;
+  }
+  .section4__cards{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 70px;
+    
+}
+.section4__card1{
+    width: 350px;
+    height: 450px;
+    margin-left: 100px;
+ border-radius: 10px;
+ 
+ background-color: rgba(10, 10, 10, 0.61);
+}
+.section4__card2{
+    width: 350px;
+    height: 450px;
+    margin-left: 20px;
+ border-radius: 10px;
+ 
+ background-color: rgba(10, 10, 10, 0.61);
+}
+.section4__card3{
+    width: 350px;
+    height: 450px;
+    margin-left: 20px;
+ border-radius: 10px;
+ 
+ background-color: rgba(10, 10, 10, 0.61);
+}
+.section4__card1__img{
+    width: 340px;
+    height: 225px;
+   
+    margin-left: 5px;
+    border-radius: 7px;
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/portfolio/portfolio-01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section4__card2__img{
+    width: 340px;
+    height: 225px;
+   
+    margin-left: 5px;
+    border-radius: 7px;
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/portfolio/portfolio-02.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section4__card3__img{
+    width: 340px;
+    height: 225px;
+   
+    margin-left: 5px;
+    border-radius: 7px;
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/portfolio/portfolio-03.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section4__head{
+    margin-left: 100px;
+    font-size: 30px;
+    color: white;
+}
+.section4__low__cards{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.section4__card4{
+    width: 350px;
+    height: 450px;
+    margin-left: 20px;
+ border-radius: 10px;
+ 
+ background-color: rgba(10, 10, 10, 0.61);
+}
+.section4__card5{
+    width: 350px;
+    height: 450px;
+    margin-left: 20px;
+ border-radius: 10px;
+ 
+ background-color: rgba(10, 10, 10, 0.61);
+}
+.section4__card4__img{
+    width: 340px;
+    height: 225px;
+   
+    margin-left: 5px;
+    border-radius: 7px;
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/portfolio/portfolio-07.jpg");
+}
+.section4__card5__img{
+    width: 340px;
+    height: 225px;
+   
+    margin-left: 5px;
+    border-radius: 7px;
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/portfolio/portfolio-07.jpg");
+}
+.seller1{
+    width: 250px;
+    height: 100px;
+    
+}
+.seller2{
+    width: 250px;
+    height: 100px;
+    
+    margin-left: 50px;
+}
+.seller3{
+    width: 250px;
+    height: 100px;
+   
+    margin-left: 50px;
+}
+.seller4{
+    width: 250px;
+    height: 100px;
+   
+    margin-left: 50px;
+}
+.seller5{
+    width: 250px;
+    height: 100px;
+   
+}
+.seller6{
+    width: 250px;
+    height: 100px;
+    
+    margin-left: 50px;
+}
+.seller7{
+    width: 250px;
+    height: 100px;
+  
+    margin-left: 50px;
+}
+.seller8{
+    width: 250px;
+    height: 100px;
+    
+    margin-left: 50px;
+}
+.seller9{
+    width: 250px;
+    height: 100px;
+    
+}
+.seller10{
+    width: 250px;
+    height: 100px;
+    
+    margin-left: 50px;
+}
+.first{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.second{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.third{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.section5{
+    width: 100%;
+    height: 800px;
+    
+    background-color: rgb(13, 13, 26);
+}
+.seller1__img{
+    width: 60px;
+    height: 60px;
+   
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/client/client-12.png");
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seller1__text{
+    width: 150px;
+    height: 100px;
+   
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.seller1__box{
+    display: flex;
+}
+.seller2__box{
+    display: flex;
+}
+.seller3__box{
+    display: flex;
+}
+.seller4__box{
+    display: flex;
+}
+.seller5__box{
+    display: flex;
+}
+.seller6__box{
+    display: flex;
+}
+.seller7__box{
+    display: flex;
+}
+.seller8__box{
+    display: flex;
+}
+.seller9__box{
+    display: flex;
+}
+.seller10__box{
+    display: flex;
+}
+.seller2__img{
+    width: 60px;
+    height: 60px;
+    
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/client/client-2.png");
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seller2__text{
+    width: 150px;
+    height: 100px;
+   
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.seller3__img{
+    width: 60px;
+    height: 60px;
+    
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/client/client-3.png");
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seller3__text{
+    width: 150px;
+    height: 100px;
+    
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.seller4__img{
+    width: 60px;
+    height: 60px;
+   
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/client/client-4.png");
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seller4__text{
+    width: 150px;
+    height: 100px;
+   
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.seller5__img{
+    width: 60px;
+    height: 60px;
+    
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/client/client-5.png");
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seller5__text{
+    width: 150px;
+    height: 100px;
+    
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.seller6__img{
+    width: 60px;
+    height: 60px;
+    
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/client/client-6.png");
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seller6__text{
+    width: 150px;
+    height: 100px;
+   
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.seller7__img{
+    width: 60px;
+    height: 60px;
+    
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/client/client-12.png");
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seller7__text{
+    width: 150px;
+    height: 100px;
+    
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.seller8__img{
+    width: 60px;
+    height: 60px;
+   
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/client/client-12.png");
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seller8__text{
+    width: 150px;
+    height: 100px;
+    
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.seller9__img{
+    width: 60px;
+    height: 60px;
+    
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/client/client-12.png");
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seller9__text{
+    width: 150px;
+    height: 100px;
+    
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.seller10__img{
+    width: 60px;
+    height: 60px;
+    
+    background-image: url("https://rainbowit.net/html/nuron/assets/images/client/client-12.png");
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.seller10__text{
+    width: 150px;
+    height: 100px;
+    
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.section5__head{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 100px;
+    color: white;
+}
+.section6{
+    width: 100%;
+    height: 1100px;
+    background-color: rgb(13, 13, 26);
+}
+.footer__desc{
+    color: rgba(211, 211, 211, 0.596);
+    margin-top: 50px;
+    font-size: 20px;
+}
+.foot{
+    width: 200px;
+    background-color: black;
+    margin-top: 20px;
+}
+.footer__desc2{
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+}
+footer{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(13, 13, 26);
+   
+}
+.foot__head{
+    display: flex;
+}
+.footer__buton{
+    margin-top: 20px;
+    height: 50px;
+    width: 80px;
+}
+.foot__input{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+}
+.text1{
+    width: 200px;
+    height: 300px;
+    margin-left: 100px;
+}
+.text2{
+    width: 200px;
+    height: 300px;
+    margin-left: 100px;
+}
+.text3{
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+.text4{
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+.text2__head{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 45px;
+}
+.text2__desc{
+    margin-top: 25px;
+}
+.icons{
+    display: flex;
+   margin-top: 300px;
+   margin-left: 800px;
+}
+.facebook{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.bi-facebook{
+    color: white;
+    font-size: 30px;
+}
+.box{
+    display: flex;
+}
+.bi-twitter{
+    color: white;
+    font-size: 30px;
+   
+}
+.twiter{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+}
+.bi-instagram{
+    font-size: 30px;
+    color: white;
+}
